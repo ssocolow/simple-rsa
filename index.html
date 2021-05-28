@@ -13,11 +13,11 @@
         <p id="privatekey">Private Key:  NA</p>
 
 
-        <form>
+        <form onsubmit="return false">
             <label for="lname">Text to encrypt:</label><br>
             <input type="text" id="ptext"><br><br>
+            <button type='button' onclick='encrypt()'>Submit</button>
         </form>
-            <button onclick="encrypt()">Encrypt</button>
      </body>
 
 </html>
